@@ -10,4 +10,8 @@
 
 @implementation CDCListRouter
 
+- (void)dismiss {
+    [self.viewController dismissViewControllerAnimated:YES completion:nil];
+}
+
 @end

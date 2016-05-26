@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+@class CDCKPIListItem;
 
 @protocol CDCListInteractorOutput <NSObject>
+
+- (void)didLogout;
+- (void)didRequestItems:(NSArray<CDCKPIListItem *> *)items;
+- (void)onError:(NSString *)error;
 
 @end

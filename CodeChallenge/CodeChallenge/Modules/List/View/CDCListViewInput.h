@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+@class CDCKPIListItem;
 
 @protocol CDCListViewInput <NSObject>
+
+- (void)setProgressVisible:(BOOL)visible;
+- (void)showItems:(NSArray<CDCKPIListItem *> *)items;
+- (void)showError:(NSString *)error;
+- (void)removeListItem:(CDCKPIListItem *)item;
 
 @end

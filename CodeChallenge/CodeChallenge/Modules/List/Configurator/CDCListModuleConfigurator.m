@@ -11,6 +11,7 @@
 #import "CDCListRouter.h"
 #import "CDCListPresenter.h"
 #import "CDCListInteractor.h"
+#import "CDCApiService.h"
 
 @implementation CDCListModuleConfigurator
 
@@ -22,6 +23,7 @@
 
 - (void)configure:(CDCListViewController *)viewController {
     CDCListRouter *router = [[CDCListRouter alloc] init];
+    router.viewController = viewController;
     
     CDCListPresenter *presenter = [[CDCListPresenter alloc] init];
     presenter.view = viewController;
@@ -29,6 +31,7 @@
     
     CDCListInteractor *interactor = [[CDCListInteractor alloc] init];
     interactor.output = presenter;
+    interactor.apiService = [CDCApiService sharedService];
     
     presenter.interactor = interactor;
     viewController.output = presenter;

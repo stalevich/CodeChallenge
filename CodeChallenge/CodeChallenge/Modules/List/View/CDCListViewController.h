@@ -11,7 +11,7 @@
 
 @protocol CDCListViewOutput;
 
-@interface CDCListViewController : UIViewController<CDCListViewInput>
+@interface CDCListViewController : UITableViewController<CDCListViewInput>
 
 @property (strong, nonatomic) id<CDCListViewOutput> output;
 

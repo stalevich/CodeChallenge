@@ -24,6 +24,18 @@
 		08F5D28D1CF6D117009F1A25 /* CDCListPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5D2801CF6D117009F1A25 /* CDCListPresenter.m */; };
 		08F5D28E1CF6D117009F1A25 /* CDCListRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5D2831CF6D117009F1A25 /* CDCListRouter.m */; };
 		08F5D28F1CF6D117009F1A25 /* CDCListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5D2871CF6D117009F1A25 /* CDCListViewController.m */; };
+		08F5D2931CF6D5A2009F1A25 /* CDCPendingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5D2921CF6D5A2009F1A25 /* CDCPendingButton.m */; };
+		08F5D2961CF6E349009F1A25 /* CDCSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5D2951CF6E349009F1A25 /* CDCSessionManager.m */; };
+		08F5D29A1CF6E617009F1A25 /* CDCApiService.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5D2991CF6E617009F1A25 /* CDCApiService.m */; };
+		08F5D29E1CF6EAB1009F1A25 /* UIViewController+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5D29D1CF6EAB1009F1A25 /* UIViewController+Alert.m */; };
+		08F5D2A21CF6F14B009F1A25 /* CDCKPIListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5D2A11CF6F14B009F1A25 /* CDCKPIListItem.m */; };
+		08F5D2A51CF6F1BE009F1A25 /* CDCAmountInAggregationCurrency.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5D2A41CF6F1BE009F1A25 /* CDCAmountInAggregationCurrency.m */; };
+		08F5D2A81CF6F28B009F1A25 /* CDCSurroundingPeriodData.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5D2A71CF6F28B009F1A25 /* CDCSurroundingPeriodData.m */; };
+		08F5D2AB1CF6F3D6009F1A25 /* CDCTimePeriod.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5D2AA1CF6F3D6009F1A25 /* CDCTimePeriod.m */; };
+		08F5D2B11CF702E2009F1A25 /* CDCKPIItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5D2B01CF702E2009F1A25 /* CDCKPIItemCell.m */; };
+		08F5D2B41CF711CB009F1A25 /* CDCTimePeriod+StringFormatting.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5D2B31CF711CB009F1A25 /* CDCTimePeriod+StringFormatting.m */; };
+		08F5D2B71CF71512009F1A25 /* JSONValueTransformer+NSDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5D2B61CF71512009F1A25 /* JSONValueTransformer+NSDate.m */; };
+		2F7170081B9ACE4DC90E165E /* libPods-CodeChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98EAF0595508712F6E17FA5F /* libPods-CodeChallenge.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +83,31 @@
 		08F5D2871CF6D117009F1A25 /* CDCListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCListViewController.m; sourceTree = "<group>"; };
 		08F5D2881CF6D117009F1A25 /* CDCListViewInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCListViewInput.h; sourceTree = "<group>"; };
 		08F5D2891CF6D117009F1A25 /* CDCListViewOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCListViewOutput.h; sourceTree = "<group>"; };
+		08F5D2911CF6D5A2009F1A25 /* CDCPendingButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDCPendingButton.h; path = View/CDCPendingButton.h; sourceTree = "<group>"; };
+		08F5D2921CF6D5A2009F1A25 /* CDCPendingButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDCPendingButton.m; path = View/CDCPendingButton.m; sourceTree = "<group>"; };
+		08F5D2941CF6E349009F1A25 /* CDCSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDCSessionManager.h; path = Services/CDCSessionManager.h; sourceTree = "<group>"; };
+		08F5D2951CF6E349009F1A25 /* CDCSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDCSessionManager.m; path = Services/CDCSessionManager.m; sourceTree = "<group>"; };
+		08F5D2981CF6E617009F1A25 /* CDCApiService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDCApiService.h; path = Services/CDCApiService.h; sourceTree = "<group>"; };
+		08F5D2991CF6E617009F1A25 /* CDCApiService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDCApiService.m; path = Services/CDCApiService.m; sourceTree = "<group>"; };
+		08F5D29C1CF6EAB1009F1A25 /* UIViewController+Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Alert.h"; path = "Categories/UIViewController+Alert.h"; sourceTree = "<group>"; };
+		08F5D29D1CF6EAB1009F1A25 /* UIViewController+Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Alert.m"; path = "Categories/UIViewController+Alert.m"; sourceTree = "<group>"; };
+		08F5D2A01CF6F14B009F1A25 /* CDCKPIListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDCKPIListItem.h; path = Models/CDCKPIListItem.h; sourceTree = "<group>"; };
+		08F5D2A11CF6F14B009F1A25 /* CDCKPIListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDCKPIListItem.m; path = Models/CDCKPIListItem.m; sourceTree = "<group>"; };
+		08F5D2A31CF6F1BE009F1A25 /* CDCAmountInAggregationCurrency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDCAmountInAggregationCurrency.h; path = Models/CDCAmountInAggregationCurrency.h; sourceTree = "<group>"; };
+		08F5D2A41CF6F1BE009F1A25 /* CDCAmountInAggregationCurrency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDCAmountInAggregationCurrency.m; path = Models/CDCAmountInAggregationCurrency.m; sourceTree = "<group>"; };
+		08F5D2A61CF6F28B009F1A25 /* CDCSurroundingPeriodData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDCSurroundingPeriodData.h; path = Models/CDCSurroundingPeriodData.h; sourceTree = "<group>"; };
+		08F5D2A71CF6F28B009F1A25 /* CDCSurroundingPeriodData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDCSurroundingPeriodData.m; path = Models/CDCSurroundingPeriodData.m; sourceTree = "<group>"; };
+		08F5D2A91CF6F3D6009F1A25 /* CDCTimePeriod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDCTimePeriod.h; path = Models/CDCTimePeriod.h; sourceTree = "<group>"; };
+		08F5D2AA1CF6F3D6009F1A25 /* CDCTimePeriod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDCTimePeriod.m; path = Models/CDCTimePeriod.m; sourceTree = "<group>"; };
+		08F5D2AF1CF702E2009F1A25 /* CDCKPIItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDCKPIItemCell.h; path = View/CDCKPIItemCell.h; sourceTree = "<group>"; };
+		08F5D2B01CF702E2009F1A25 /* CDCKPIItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDCKPIItemCell.m; path = View/CDCKPIItemCell.m; sourceTree = "<group>"; };
+		08F5D2B21CF711CB009F1A25 /* CDCTimePeriod+StringFormatting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CDCTimePeriod+StringFormatting.h"; path = "Categories/CDCTimePeriod+StringFormatting.h"; sourceTree = "<group>"; };
+		08F5D2B31CF711CB009F1A25 /* CDCTimePeriod+StringFormatting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CDCTimePeriod+StringFormatting.m"; path = "Categories/CDCTimePeriod+StringFormatting.m"; sourceTree = "<group>"; };
+		08F5D2B51CF71512009F1A25 /* JSONValueTransformer+NSDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "JSONValueTransformer+NSDate.h"; path = "Categories/JSONValueTransformer+NSDate.h"; sourceTree = "<group>"; };
+		08F5D2B61CF71512009F1A25 /* JSONValueTransformer+NSDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "JSONValueTransformer+NSDate.m"; path = "Categories/JSONValueTransformer+NSDate.m"; sourceTree = "<group>"; };
+		98EAF0595508712F6E17FA5F /* libPods-CodeChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CodeChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB026EC60E722A99CAF477B2 /* Pods-CodeChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodeChallenge/Pods-CodeChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		C122BAB67B0083F3EB4AF801 /* Pods-CodeChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodeChallenge/Pods-CodeChallenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,17 +115,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F7170081B9ACE4DC90E165E /* libPods-CodeChallenge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0562990F3CD5E57389EF8A55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98EAF0595508712F6E17FA5F /* libPods-CodeChallenge.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		08F5D22F1CF6B0A0009F1A25 = {
 			isa = PBXGroup;
 			children = (
 				08F5D23A1CF6B0A1009F1A25 /* CodeChallenge */,
 				08F5D2391CF6B0A1009F1A25 /* Products */,
+				234307CBAC244565745D5FB1 /* Pods */,
+				0562990F3CD5E57389EF8A55 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +152,10 @@
 			isa = PBXGroup;
 			children = (
 				08F5D2531CF6C79F009F1A25 /* Modules */,
+				08F5D2901CF6D56C009F1A25 /* View */,
+				08F5D29F1CF6F102009F1A25 /* Models */,
+				08F5D29B1CF6EA4E009F1A25 /* Categories */,
+				08F5D2971CF6E5FA009F1A25 /* Services */,
 				08F5D23E1CF6B0A1009F1A25 /* AppDelegate.h */,
 				08F5D23F1CF6B0A1009F1A25 /* AppDelegate.m */,
 				08F5D2441CF6B0A1009F1A25 /* Main.storyboard */,
@@ -262,6 +314,65 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		08F5D2901CF6D56C009F1A25 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				08F5D2911CF6D5A2009F1A25 /* CDCPendingButton.h */,
+				08F5D2921CF6D5A2009F1A25 /* CDCPendingButton.m */,
+				08F5D2AF1CF702E2009F1A25 /* CDCKPIItemCell.h */,
+				08F5D2B01CF702E2009F1A25 /* CDCKPIItemCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		08F5D2971CF6E5FA009F1A25 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				08F5D2941CF6E349009F1A25 /* CDCSessionManager.h */,
+				08F5D2951CF6E349009F1A25 /* CDCSessionManager.m */,
+				08F5D2981CF6E617009F1A25 /* CDCApiService.h */,
+				08F5D2991CF6E617009F1A25 /* CDCApiService.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		08F5D29B1CF6EA4E009F1A25 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				08F5D29C1CF6EAB1009F1A25 /* UIViewController+Alert.h */,
+				08F5D29D1CF6EAB1009F1A25 /* UIViewController+Alert.m */,
+				08F5D2B21CF711CB009F1A25 /* CDCTimePeriod+StringFormatting.h */,
+				08F5D2B31CF711CB009F1A25 /* CDCTimePeriod+StringFormatting.m */,
+				08F5D2B51CF71512009F1A25 /* JSONValueTransformer+NSDate.h */,
+				08F5D2B61CF71512009F1A25 /* JSONValueTransformer+NSDate.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		08F5D29F1CF6F102009F1A25 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				08F5D2A01CF6F14B009F1A25 /* CDCKPIListItem.h */,
+				08F5D2A11CF6F14B009F1A25 /* CDCKPIListItem.m */,
+				08F5D2A31CF6F1BE009F1A25 /* CDCAmountInAggregationCurrency.h */,
+				08F5D2A41CF6F1BE009F1A25 /* CDCAmountInAggregationCurrency.m */,
+				08F5D2A61CF6F28B009F1A25 /* CDCSurroundingPeriodData.h */,
+				08F5D2A71CF6F28B009F1A25 /* CDCSurroundingPeriodData.m */,
+				08F5D2A91CF6F3D6009F1A25 /* CDCTimePeriod.h */,
+				08F5D2AA1CF6F3D6009F1A25 /* CDCTimePeriod.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		234307CBAC244565745D5FB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB026EC60E722A99CAF477B2 /* Pods-CodeChallenge.debug.xcconfig */,
+				C122BAB67B0083F3EB4AF801 /* Pods-CodeChallenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -269,9 +380,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08F5D24F1CF6B0A1009F1A25 /* Build configuration list for PBXNativeTarget "CodeChallenge" */;
 			buildPhases = (
+				FD59F68465AD6FFB76CC1A85 /* 📦 Check Pods Manifest.lock */,
 				08F5D2341CF6B0A1009F1A25 /* Sources */,
 				08F5D2351CF6B0A1009F1A25 /* Frameworks */,
 				08F5D2361CF6B0A1009F1A25 /* Resources */,
+				D3E35887CB51AE983FE87193 /* 📦 Embed Pods Frameworks */,
+				646AA64A89560762FA7CD147 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -328,23 +442,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		646AA64A89560762FA7CD147 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodeChallenge/Pods-CodeChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3E35887CB51AE983FE87193 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodeChallenge/Pods-CodeChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD59F68465AD6FFB76CC1A85 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		08F5D2341CF6B0A1009F1A25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08F5D2B41CF711CB009F1A25 /* CDCTimePeriod+StringFormatting.m in Sources */,
+				08F5D2B11CF702E2009F1A25 /* CDCKPIItemCell.m in Sources */,
 				08F5D26A1CF6C9B6009F1A25 /* CDCSignInRouter.m in Sources */,
 				08F5D28D1CF6D117009F1A25 /* CDCListPresenter.m in Sources */,
 				08F5D2651CF6C943009F1A25 /* CDCSignInInteractor.m in Sources */,
+				08F5D29E1CF6EAB1009F1A25 /* UIViewController+Alert.m in Sources */,
+				08F5D2AB1CF6F3D6009F1A25 /* CDCTimePeriod.m in Sources */,
+				08F5D2931CF6D5A2009F1A25 /* CDCPendingButton.m in Sources */,
+				08F5D2A21CF6F14B009F1A25 /* CDCKPIListItem.m in Sources */,
 				08F5D28E1CF6D117009F1A25 /* CDCListRouter.m in Sources */,
 				08F5D25F1CF6C865009F1A25 /* CDCSignInPresenter.m in Sources */,
 				08F5D2401CF6B0A1009F1A25 /* AppDelegate.m in Sources */,
+				08F5D2961CF6E349009F1A25 /* CDCSessionManager.m in Sources */,
 				08F5D26E1CF6CA91009F1A25 /* CDCSignInModuleConfigurator.m in Sources */,
 				08F5D28A1CF6D117009F1A25 /* CDCListModuleConfigurator.m in Sources */,
+				08F5D29A1CF6E617009F1A25 /* CDCApiService.m in Sources */,
+				08F5D2B71CF71512009F1A25 /* JSONValueTransformer+NSDate.m in Sources */,
+				08F5D2A51CF6F1BE009F1A25 /* CDCAmountInAggregationCurrency.m in Sources */,
 				08F5D25C1CF6C7CE009F1A25 /* CDCSignInViewController.m in Sources */,
 				08F5D23D1CF6B0A1009F1A25 /* main.m in Sources */,
 				08F5D28C1CF6D117009F1A25 /* CDCListInteractor.m in Sources */,
 				08F5D28F1CF6D117009F1A25 /* CDCListViewController.m in Sources */,
+				08F5D2A81CF6F28B009F1A25 /* CDCSurroundingPeriodData.m in Sources */,
 				08F5D28B1CF6D117009F1A25 /* CDCListModuleInitiazer.m in Sources */,
 				08F5D2711CF6CDD7009F1A25 /* CDCSignInModuleInitiazer.m in Sources */,
 			);
@@ -458,6 +631,7 @@
 		};
 		08F5D2501CF6B0A1009F1A25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB026EC60E722A99CAF477B2 /* Pods-CodeChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CodeChallenge/Info.plist;
@@ -470,6 +644,7 @@
 		};
 		08F5D2511CF6B0A1009F1A25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C122BAB67B0083F3EB4AF801 /* Pods-CodeChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CodeChallenge/Info.plist;
@@ -499,6 +674,7 @@
 				08F5D2511CF6B0A1009F1A25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

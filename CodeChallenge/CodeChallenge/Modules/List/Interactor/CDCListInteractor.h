@@ -8,11 +8,13 @@
 
 #import <Foundation/Foundation.h>
 #import "CDCListInteractorInput.h"
+#import "CDCApiService.h"
 
 @protocol CDCListInteractorOutput;
 
 @interface CDCListInteractor : NSObject<CDCListInteractorInput>
 
 @property (weak, nonatomic) id<CDCListInteractorOutput> output;
+@property (weak, nonatomic) CDCApiService *apiService;
 
 @end

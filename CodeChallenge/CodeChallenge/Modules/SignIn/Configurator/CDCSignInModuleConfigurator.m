@@ -22,6 +22,7 @@
 
 - (void)configure:(CDCSignInViewController *)viewController {
     CDCSignInRouter *router = [[CDCSignInRouter alloc] init];
+    router.viewController = viewController;
     
     CDCSignInPresenter *presenter = [[CDCSignInPresenter alloc] init];
     presenter.view = viewController;
@@ -29,6 +30,7 @@
     
     CDCSignInInteractor *interactor = [[CDCSignInInteractor alloc] init];
     interactor.output = presenter;
+    interactor.apiService = [CDCApiService sharedService];
     
     presenter.interactor = interactor;
     viewController.output = presenter;

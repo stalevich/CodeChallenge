@@ -11,4 +11,6 @@
 
 @interface CDCSignInRouter : NSObject<CDCSignInRouterInput>
 
+@property (weak, nonatomic) UIViewController *viewController;
+
 @end

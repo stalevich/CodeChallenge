@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+@class CDCKPIListItem;
+
 @protocol CDCSignInRouterInput <NSObject>
+
+- (void)showListWithItems:(NSArray<CDCKPIListItem *> *)items;
 
 @end

@@ -10,4 +10,7 @@
 
 @protocol CDCSignInViewInput <NSObject>
 
+- (void)setProgressVisible:(BOOL)visible;
+- (void)showError:(NSString *)error;
+
 @end

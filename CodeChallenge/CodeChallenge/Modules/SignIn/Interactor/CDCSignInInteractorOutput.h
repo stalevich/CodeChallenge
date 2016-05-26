@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+@class CDCKPIListItem;
 
 @protocol CDCSignInInteractorOutput <NSObject>
+
+- (void)didSignInWithItems:(NSArray<CDCKPIListItem *> *)items;
+- (void)onError:(NSString *)error;
 
 @end

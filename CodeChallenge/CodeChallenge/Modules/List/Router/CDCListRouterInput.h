@@ -10,4 +10,6 @@
 
 @protocol CDCListRouterInput <NSObject>
 
+- (void)dismiss;
+
 @end

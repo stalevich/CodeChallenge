@@ -10,4 +10,7 @@
 
 @protocol CDCListInteractorInput <NSObject>
 
+- (void)logout;
+- (void)requsetItems;
+
 @end

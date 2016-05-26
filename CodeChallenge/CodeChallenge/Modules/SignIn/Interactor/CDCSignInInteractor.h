@@ -8,11 +8,13 @@
 
 #import <Foundation/Foundation.h>
 #import "CDCSignInInteractorInput.h"
+#import "CDCApiService.h"
 
 @protocol CDCSignInInteractorOutput;
 
 @interface CDCSignInInteractor : NSObject<CDCSignInInteractorInput>
 
 @property (weak, nonatomic) id<CDCSignInInteractorOutput> output;
+@property (weak, nonatomic) CDCApiService *apiService;
 
 @end

@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+@class CDCKPIListItem;
 
 @protocol CDCListModuleInput <NSObject>
+
+@property (strong, nonatomic) NSArray<CDCKPIListItem *> *items;
 
 @end

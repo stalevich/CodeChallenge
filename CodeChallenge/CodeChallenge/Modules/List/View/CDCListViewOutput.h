@@ -11,5 +11,8 @@
 @protocol CDCListViewOutput <NSObject>
 
 - (void)viewIsReady;
+- (void)onRefresh;
+- (void)onLogout;
+- (void)onDeleteItem:(CDCKPIListItem *)item;
 
 @end

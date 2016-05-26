@@ -6,9 +6,11 @@
 //  Copyright © 2016 ssp. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import "CDCListRouterInput.h"
 
 @interface CDCListRouter : NSObject<CDCListRouterInput>
+
+@property (weak, nonatomic) UIViewController *viewController;
 
 @end

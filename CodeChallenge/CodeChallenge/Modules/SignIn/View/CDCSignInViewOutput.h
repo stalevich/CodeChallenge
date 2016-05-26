@@ -11,5 +11,6 @@
 @protocol CDCSignInViewOutput <NSObject>
 
 - (void)viewIsReady;
+- (void)onSignInWithLogin:(NSString *)login password:(NSString *)password;
 
 @end
