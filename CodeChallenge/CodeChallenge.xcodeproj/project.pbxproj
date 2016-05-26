@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08F5D23D1CF6B0A1009F1A25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5D23C1CF6B0A1009F1A25 /* main.m */; };
+		08F5D2401CF6B0A1009F1A25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5D23F1CF6B0A1009F1A25 /* AppDelegate.m */; };
+		08F5D2461CF6B0A1009F1A25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08F5D2441CF6B0A1009F1A25 /* Main.storyboard */; };
+		08F5D2481CF6B0A1009F1A25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08F5D2471CF6B0A1009F1A25 /* Assets.xcassets */; };
+		08F5D24B1CF6B0A1009F1A25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08F5D2491CF6B0A1009F1A25 /* LaunchScreen.storyboard */; };
+		08F5D25C1CF6C7CE009F1A25 /* CDCSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5D25B1CF6C7CE009F1A25 /* CDCSignInViewController.m */; };
+		08F5D25F1CF6C865009F1A25 /* CDCSignInPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5D25E1CF6C865009F1A25 /* CDCSignInPresenter.m */; };
+		08F5D2651CF6C943009F1A25 /* CDCSignInInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5D2641CF6C943009F1A25 /* CDCSignInInteractor.m */; };
+		08F5D26A1CF6C9B6009F1A25 /* CDCSignInRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5D2691CF6C9B6009F1A25 /* CDCSignInRouter.m */; };
+		08F5D26E1CF6CA91009F1A25 /* CDCSignInModuleConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5D26D1CF6CA91009F1A25 /* CDCSignInModuleConfigurator.m */; };
+		08F5D2711CF6CDD7009F1A25 /* CDCSignInModuleInitiazer.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5D2701CF6CDD7009F1A25 /* CDCSignInModuleInitiazer.m */; };
+		08F5D28A1CF6D117009F1A25 /* CDCListModuleConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5D2751CF6D117009F1A25 /* CDCListModuleConfigurator.m */; };
+		08F5D28B1CF6D117009F1A25 /* CDCListModuleInitiazer.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5D2771CF6D117009F1A25 /* CDCListModuleInitiazer.m */; };
+		08F5D28C1CF6D117009F1A25 /* CDCListInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5D27A1CF6D117009F1A25 /* CDCListInteractor.m */; };
+		08F5D28D1CF6D117009F1A25 /* CDCListPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5D2801CF6D117009F1A25 /* CDCListPresenter.m */; };
+		08F5D28E1CF6D117009F1A25 /* CDCListRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5D2831CF6D117009F1A25 /* CDCListRouter.m */; };
+		08F5D28F1CF6D117009F1A25 /* CDCListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F5D2871CF6D117009F1A25 /* CDCListViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08F5D2381CF6B0A1009F1A25 /* CodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08F5D23C1CF6B0A1009F1A25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08F5D23E1CF6B0A1009F1A25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		08F5D23F1CF6B0A1009F1A25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		08F5D2451CF6B0A1009F1A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08F5D2471CF6B0A1009F1A25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08F5D24A1CF6B0A1009F1A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08F5D24C1CF6B0A1009F1A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08F5D25A1CF6C7CE009F1A25 /* CDCSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCSignInViewController.h; sourceTree = "<group>"; };
+		08F5D25B1CF6C7CE009F1A25 /* CDCSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCSignInViewController.m; sourceTree = "<group>"; };
+		08F5D25D1CF6C865009F1A25 /* CDCSignInPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCSignInPresenter.h; sourceTree = "<group>"; };
+		08F5D25E1CF6C865009F1A25 /* CDCSignInPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCSignInPresenter.m; sourceTree = "<group>"; };
+		08F5D2601CF6C878009F1A25 /* CDCSignInModuleInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCSignInModuleInput.h; sourceTree = "<group>"; };
+		08F5D2611CF6C8C7009F1A25 /* CDCSignInViewInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCSignInViewInput.h; sourceTree = "<group>"; };
+		08F5D2621CF6C8D3009F1A25 /* CDCSignInViewOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCSignInViewOutput.h; sourceTree = "<group>"; };
+		08F5D2631CF6C943009F1A25 /* CDCSignInInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCSignInInteractor.h; sourceTree = "<group>"; };
+		08F5D2641CF6C943009F1A25 /* CDCSignInInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCSignInInteractor.m; sourceTree = "<group>"; };
+		08F5D2661CF6C95D009F1A25 /* CDCSignInInteractorInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCSignInInteractorInput.h; sourceTree = "<group>"; };
+		08F5D2671CF6C96A009F1A25 /* CDCSignInInteractorOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCSignInInteractorOutput.h; sourceTree = "<group>"; };
+		08F5D2681CF6C9B6009F1A25 /* CDCSignInRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCSignInRouter.h; sourceTree = "<group>"; };
+		08F5D2691CF6C9B6009F1A25 /* CDCSignInRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCSignInRouter.m; sourceTree = "<group>"; };
+		08F5D26B1CF6C9C8009F1A25 /* CDCSignInRouterInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCSignInRouterInput.h; sourceTree = "<group>"; };
+		08F5D26C1CF6CA91009F1A25 /* CDCSignInModuleConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCSignInModuleConfigurator.h; sourceTree = "<group>"; };
+		08F5D26D1CF6CA91009F1A25 /* CDCSignInModuleConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCSignInModuleConfigurator.m; sourceTree = "<group>"; };
+		08F5D26F1CF6CDD7009F1A25 /* CDCSignInModuleInitiazer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCSignInModuleInitiazer.h; sourceTree = "<group>"; };
+		08F5D2701CF6CDD7009F1A25 /* CDCSignInModuleInitiazer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCSignInModuleInitiazer.m; sourceTree = "<group>"; };
+		08F5D2741CF6D117009F1A25 /* CDCListModuleConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCListModuleConfigurator.h; sourceTree = "<group>"; };
+		08F5D2751CF6D117009F1A25 /* CDCListModuleConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCListModuleConfigurator.m; sourceTree = "<group>"; };
+		08F5D2761CF6D117009F1A25 /* CDCListModuleInitiazer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCListModuleInitiazer.h; sourceTree = "<group>"; };
+		08F5D2771CF6D117009F1A25 /* CDCListModuleInitiazer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCListModuleInitiazer.m; sourceTree = "<group>"; };
+		08F5D2791CF6D117009F1A25 /* CDCListInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCListInteractor.h; sourceTree = "<group>"; };
+		08F5D27A1CF6D117009F1A25 /* CDCListInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCListInteractor.m; sourceTree = "<group>"; };
+		08F5D27B1CF6D117009F1A25 /* CDCListInteractorInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCListInteractorInput.h; sourceTree = "<group>"; };
+		08F5D27C1CF6D117009F1A25 /* CDCListInteractorOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCListInteractorOutput.h; sourceTree = "<group>"; };
+		08F5D27E1CF6D117009F1A25 /* CDCListModuleInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCListModuleInput.h; sourceTree = "<group>"; };
+		08F5D27F1CF6D117009F1A25 /* CDCListPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCListPresenter.h; sourceTree = "<group>"; };
+		08F5D2801CF6D117009F1A25 /* CDCListPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCListPresenter.m; sourceTree = "<group>"; };
+		08F5D2821CF6D117009F1A25 /* CDCListRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCListRouter.h; sourceTree = "<group>"; };
+		08F5D2831CF6D117009F1A25 /* CDCListRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCListRouter.m; sourceTree = "<group>"; };
+		08F5D2841CF6D117009F1A25 /* CDCListRouterInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCListRouterInput.h; sourceTree = "<group>"; };
+		08F5D2861CF6D117009F1A25 /* CDCListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCListViewController.h; sourceTree = "<group>"; };
+		08F5D2871CF6D117009F1A25 /* CDCListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCListViewController.m; sourceTree = "<group>"; };
+		08F5D2881CF6D117009F1A25 /* CDCListViewInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCListViewInput.h; sourceTree = "<group>"; };
+		08F5D2891CF6D117009F1A25 /* CDCListViewOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCListViewOutput.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08F5D2351CF6B0A1009F1A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08F5D22F1CF6B0A0009F1A25 = {
+			isa = PBXGroup;
+			children = (
+				08F5D23A1CF6B0A1009F1A25 /* CodeChallenge */,
+				08F5D2391CF6B0A1009F1A25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08F5D2391CF6B0A1009F1A25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08F5D2381CF6B0A1009F1A25 /* CodeChallenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08F5D23A1CF6B0A1009F1A25 /* CodeChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				08F5D2531CF6C79F009F1A25 /* Modules */,
+				08F5D23E1CF6B0A1009F1A25 /* AppDelegate.h */,
+				08F5D23F1CF6B0A1009F1A25 /* AppDelegate.m */,
+				08F5D2441CF6B0A1009F1A25 /* Main.storyboard */,
+				08F5D2471CF6B0A1009F1A25 /* Assets.xcassets */,
+				08F5D2491CF6B0A1009F1A25 /* LaunchScreen.storyboard */,
+				08F5D24C1CF6B0A1009F1A25 /* Info.plist */,
+				08F5D23B1CF6B0A1009F1A25 /* Supporting Files */,
+			);
+			path = CodeChallenge;
+			sourceTree = "<group>";
+		};
+		08F5D23B1CF6B0A1009F1A25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08F5D23C1CF6B0A1009F1A25 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08F5D2531CF6C79F009F1A25 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				08F5D2721CF6D117009F1A25 /* List */,
+				08F5D2541CF6C79F009F1A25 /* SignIn */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		08F5D2541CF6C79F009F1A25 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				08F5D2551CF6C79F009F1A25 /* Configurator */,
+				08F5D2561CF6C79F009F1A25 /* Interactor */,
+				08F5D2571CF6C79F009F1A25 /* Presenter */,
+				08F5D2581CF6C79F009F1A25 /* Router */,
+				08F5D2591CF6C79F009F1A25 /* View */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		08F5D2551CF6C79F009F1A25 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				08F5D26C1CF6CA91009F1A25 /* CDCSignInModuleConfigurator.h */,
+				08F5D26D1CF6CA91009F1A25 /* CDCSignInModuleConfigurator.m */,
+				08F5D26F1CF6CDD7009F1A25 /* CDCSignInModuleInitiazer.h */,
+				08F5D2701CF6CDD7009F1A25 /* CDCSignInModuleInitiazer.m */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		08F5D2561CF6C79F009F1A25 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				08F5D2631CF6C943009F1A25 /* CDCSignInInteractor.h */,
+				08F5D2641CF6C943009F1A25 /* CDCSignInInteractor.m */,
+				08F5D2661CF6C95D009F1A25 /* CDCSignInInteractorInput.h */,
+				08F5D2671CF6C96A009F1A25 /* CDCSignInInteractorOutput.h */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		08F5D2571CF6C79F009F1A25 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				08F5D25D1CF6C865009F1A25 /* CDCSignInPresenter.h */,
+				08F5D25E1CF6C865009F1A25 /* CDCSignInPresenter.m */,
+				08F5D2601CF6C878009F1A25 /* CDCSignInModuleInput.h */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		08F5D2581CF6C79F009F1A25 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				08F5D2681CF6C9B6009F1A25 /* CDCSignInRouter.h */,
+				08F5D2691CF6C9B6009F1A25 /* CDCSignInRouter.m */,
+				08F5D26B1CF6C9C8009F1A25 /* CDCSignInRouterInput.h */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		08F5D2591CF6C79F009F1A25 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				08F5D25A1CF6C7CE009F1A25 /* CDCSignInViewController.h */,
+				08F5D25B1CF6C7CE009F1A25 /* CDCSignInViewController.m */,
+				08F5D2611CF6C8C7009F1A25 /* CDCSignInViewInput.h */,
+				08F5D2621CF6C8D3009F1A25 /* CDCSignInViewOutput.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		08F5D2721CF6D117009F1A25 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				08F5D2731CF6D117009F1A25 /* Configurator */,
+				08F5D2781CF6D117009F1A25 /* Interactor */,
+				08F5D27D1CF6D117009F1A25 /* Presenter */,
+				08F5D2811CF6D117009F1A25 /* Router */,
+				08F5D2851CF6D117009F1A25 /* View */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		08F5D2731CF6D117009F1A25 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				08F5D2741CF6D117009F1A25 /* CDCListModuleConfigurator.h */,
+				08F5D2751CF6D117009F1A25 /* CDCListModuleConfigurator.m */,
+				08F5D2761CF6D117009F1A25 /* CDCListModuleInitiazer.h */,
+				08F5D2771CF6D117009F1A25 /* CDCListModuleInitiazer.m */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		08F5D2781CF6D117009F1A25 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				08F5D2791CF6D117009F1A25 /* CDCListInteractor.h */,
+				08F5D27A1CF6D117009F1A25 /* CDCListInteractor.m */,
+				08F5D27B1CF6D117009F1A25 /* CDCListInteractorInput.h */,
+				08F5D27C1CF6D117009F1A25 /* CDCListInteractorOutput.h */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		08F5D27D1CF6D117009F1A25 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				08F5D27E1CF6D117009F1A25 /* CDCListModuleInput.h */,
+				08F5D27F1CF6D117009F1A25 /* CDCListPresenter.h */,
+				08F5D2801CF6D117009F1A25 /* CDCListPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		08F5D2811CF6D117009F1A25 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				08F5D2821CF6D117009F1A25 /* CDCListRouter.h */,
+				08F5D2831CF6D117009F1A25 /* CDCListRouter.m */,
+				08F5D2841CF6D117009F1A25 /* CDCListRouterInput.h */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		08F5D2851CF6D117009F1A25 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				08F5D2861CF6D117009F1A25 /* CDCListViewController.h */,
+				08F5D2871CF6D117009F1A25 /* CDCListViewController.m */,
+				08F5D2881CF6D117009F1A25 /* CDCListViewInput.h */,
+				08F5D2891CF6D117009F1A25 /* CDCListViewOutput.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08F5D2371CF6B0A1009F1A25 /* CodeChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08F5D24F1CF6B0A1009F1A25 /* Build configuration list for PBXNativeTarget "CodeChallenge" */;
+			buildPhases = (
+				08F5D2341CF6B0A1009F1A25 /* Sources */,
+				08F5D2351CF6B0A1009F1A25 /* Frameworks */,
+				08F5D2361CF6B0A1009F1A25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeChallenge;
+			productName = CodeChallenge;
+			productReference = 08F5D2381CF6B0A1009F1A25 /* CodeChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08F5D2301CF6B0A0009F1A25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CDC;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ssp;
+				TargetAttributes = {
+					08F5D2371CF6B0A1009F1A25 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 08F5D2331CF6B0A0009F1A25 /* Build configuration list for PBXProject "CodeChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08F5D22F1CF6B0A0009F1A25;
+			productRefGroup = 08F5D2391CF6B0A1009F1A25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08F5D2371CF6B0A1009F1A25 /* CodeChallenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08F5D2361CF6B0A1009F1A25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F5D24B1CF6B0A1009F1A25 /* LaunchScreen.storyboard in Resources */,
+				08F5D2481CF6B0A1009F1A25 /* Assets.xcassets in Resources */,
+				08F5D2461CF6B0A1009F1A25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08F5D2341CF6B0A1009F1A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F5D26A1CF6C9B6009F1A25 /* CDCSignInRouter.m in Sources */,
+				08F5D28D1CF6D117009F1A25 /* CDCListPresenter.m in Sources */,
+				08F5D2651CF6C943009F1A25 /* CDCSignInInteractor.m in Sources */,
+				08F5D28E1CF6D117009F1A25 /* CDCListRouter.m in Sources */,
+				08F5D25F1CF6C865009F1A25 /* CDCSignInPresenter.m in Sources */,
+				08F5D2401CF6B0A1009F1A25 /* AppDelegate.m in Sources */,
+				08F5D26E1CF6CA91009F1A25 /* CDCSignInModuleConfigurator.m in Sources */,
+				08F5D28A1CF6D117009F1A25 /* CDCListModuleConfigurator.m in Sources */,
+				08F5D25C1CF6C7CE009F1A25 /* CDCSignInViewController.m in Sources */,
+				08F5D23D1CF6B0A1009F1A25 /* main.m in Sources */,
+				08F5D28C1CF6D117009F1A25 /* CDCListInteractor.m in Sources */,
+				08F5D28F1CF6D117009F1A25 /* CDCListViewController.m in Sources */,
+				08F5D28B1CF6D117009F1A25 /* CDCListModuleInitiazer.m in Sources */,
+				08F5D2711CF6CDD7009F1A25 /* CDCSignInModuleInitiazer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		08F5D2441CF6B0A1009F1A25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08F5D2451CF6B0A1009F1A25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08F5D2491CF6B0A1009F1A25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08F5D24A1CF6B0A1009F1A25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08F5D24D1CF6B0A1009F1A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08F5D24E1CF6B0A1009F1A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08F5D2501CF6B0A1009F1A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CodeChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sspsoft.dev.CodeChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		08F5D2511CF6B0A1009F1A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CodeChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sspsoft.dev.CodeChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08F5D2331CF6B0A0009F1A25 /* Build configuration list for PBXProject "CodeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08F5D24D1CF6B0A1009F1A25 /* Debug */,
+				08F5D24E1CF6B0A1009F1A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08F5D24F1CF6B0A1009F1A25 /* Build configuration list for PBXNativeTarget "CodeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08F5D2501CF6B0A1009F1A25 /* Debug */,
+				08F5D2511CF6B0A1009F1A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08F5D2301CF6B0A0009F1A25 /* Project object */;
+}
